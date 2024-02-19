@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <style>
+        #chatIframe {
+            height: 600px;
+            width: 400px;
+            border: 2px solid #999;
+        }
+
+        .mainL {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .col1 {
+            position: fixed;
+            bottom: 85;
+            right: 20;
+            z-index: 555;
+        }
+
+        .content .upper {
+            justify-content: left;
+            flex-direction: column;
+        }
+
+        .conner {
+            position: fixed;
+            bottom: 10;
+            right: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainL">
+        <div class="col1">
+            <iframe id="chatIframe" src="http://127.0.0.1:8000" width="400px" height="600px" frameBorder="0"
+                style="display:none" title="Chat Windows"></iframe>
+        </div>
+        <!-- Demo Dummy Content -->
+        <div class="upper">
+            <main id="main">
+                <div class="u-full-width hero">
+                    <div class="l-center">
+                        <div class="l-sidebar">
+                            <div>
+                                <div class="not-sidebar">
+                                    <h1>Making the Web work</h1>
+                                    <div class="lead">
+                                        <p>The World Wide Web Consortium (W3C) develops <a href="/standards/">standards
+                                                and guidelines</a> to help everyone build a web based on the principles
+                                            of <a href="/mission/accessibility/">accessibility</a>, <a
+                                                href="/mission/internationalization/">internationalization</a>, <a
+                                                href="/mission/privacy/">privacy</a> and <a
+                                                href="/mission/security/">security</a>.</p>
+                                    </div>
+
+                                    <a class="button button--alt" href="/about/">Read more about W3C</a>
+
+                                </div>
+                                <div class="sidebar">
+                                    <img src="https://www.w3.org/cms-uploads/Hero-illustrations/groups.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component component--members u-full-width">
+                    <div class="l-center">
+                        <h2>Working with stakeholders of the Web</h2>
+                        <p>A range of organizations join the World Wide Web Consortium as Members to work with us to
+                            drive the direction of core web technologies and exchange ideas with industry and research
+                            leaders. We rotate randomly a few of our Member organizations' logos underneath.</p>
+                        <p>The Web Consortium and its members, with help from the public and the web community, focus on
+                            a range of business ecosystems that the Web transforms, including&nbsp;<a
+                                href="/ecosystems/e-commerce/">E-commerce</a>,&nbsp;<a href="/ecosystems/media/">Media
+                                &amp; Entertainment</a>, <a href="/ecosystems/publishing/">Publishing</a> and several
+                            other areas.</p>
+                        <div class="component--members__grid">
+                            <figure>
+                                <div class="l-box l-box--no-border"><img
+                                        src="https://www.w3.org/thumbnails/250/logos/organizations/127610.png?x-version=2"
+                                        alt="RANDA Solutions" loading="lazy"></div>
+                            </figure>
+                            <figure>
+                                <div class="l-box l-box--no-border"><img
+                                        src="https://www.w3.org/thumbnails/250/logos/organizations/125356.png?x-version=3"
+                                        alt="Shanghai Bilibili Technology Co., Ltd." loading="lazy"></div>
+                            </figure>
+                            <figure>
+                                <div class="l-box l-box--no-border"><img
+                                        src="https://www.w3.org/thumbnails/250/logos/organizations/126165.png?x-version=1"
+                                        alt="Spruce Systems, Inc." loading="lazy"></div>
+                            </figure>
+                            <figure>
+                                <div class="l-box l-box--no-border"><img
+                                        src="https://www.w3.org/thumbnails/250/logos/organizations/89490.png?x-version=1"
+                                        alt="Fabasoft" loading="lazy"></div>
+                            </figure>
+                            <figure>
+                                <div class="l-box l-box--no-border"><img
+                                        src="https://www.w3.org/thumbnails/250/logos/organizations/132466.png?x-version=3"
+                                        alt="VE3" loading="lazy"></div>
+                            </figure>
+                            <figure>
+                                <div class="l-box l-box--no-border"><img
+                                        src="https://www.w3.org/thumbnails/250/logos/organizations/79706.png?x-version=1"
+                                        alt="Shopify" loading="lazy"></div>
+                            </figure>
+                        </div>
+
+                        <a class="button button--alt" href="/ecosystems/">Discover how W3C supports these
+                            organizations</a>
+                    </div>
+                </div>
+
+                <section class="component component--fifty-fifty ">
+                    <div class="image">
+                        <img src="https://www.w3.org/cms-uploads/ryan-quintal-US9Tc9pKNBU-unsplash.jpg"
+                            srcset="https://www.w3.org/cms-uploads/_360xAUTO_crop_center-center_none/ryan-quintal-US9Tc9pKNBU-unsplash.jpg 360w, https://www.w3.org/cms-uploads/_580xAUTO_crop_center-center_none/ryan-quintal-US9Tc9pKNBU-unsplash.jpg 580w, https://www.w3.org/cms-uploads/_920xAUTO_crop_center-center_none/ryan-quintal-US9Tc9pKNBU-unsplash.jpg 920w, https://www.w3.org/cms-uploads/_1520xAUTO_crop_center-center_none/ryan-quintal-US9Tc9pKNBU-unsplash.jpg 1520w"
+                            sizes="(min-width: 48em) 50vw, 100vw" loading="lazy" alt="">
+                    </div>
+                    <div class="component--fifty-fifty__text">
+                        <h2 class="txt-earth">Web standards</h2>
+                        <p>Web standards are the building blocks of a consistent digitally connected world. They are
+                            implemented in browsers, blogs, search engines, and other software that power our experience
+                            on the Web.</p>
+                        <p>W3C is an international community where <a href="/membership/list/">Members</a>, full-time <a
+                                href="/staff/">staff</a>, and the public work together to develop web standards.</p>
+                        <div class="l-box l-box--no-border l-box--no-padding">
+                            <a class="button button--alt" href="/standards/">Learn more about Web standards</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="component component--fifty-fifty ">
+                    <div class="image">
+                        <img src="https://www.w3.org/cms-uploads/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+                            srcset="https://www.w3.org/cms-uploads/_360xAUTO_crop_center-center_none/marvin-meyer-SYTO3xs06fU-unsplash.jpg 360w, https://www.w3.org/cms-uploads/_580xAUTO_crop_center-center_none/marvin-meyer-SYTO3xs06fU-unsplash.jpg 580w, https://www.w3.org/cms-uploads/_920xAUTO_crop_center-center_none/marvin-meyer-SYTO3xs06fU-unsplash.jpg 920w, https://www.w3.org/cms-uploads/_1520xAUTO_crop_center-center_none/marvin-meyer-SYTO3xs06fU-unsplash.jpg 1520w"
+                            sizes="(min-width: 48em) 50vw, 100vw" loading="lazy" alt="">
+                    </div>
+                    <div class="component--fifty-fifty__text">
+                        <h2 class="txt-earth">Get involved</h2>
+                        <p>W3C works at the nexus of core technology, industry needs, and societal needs. Everyone can
+                            get involved with the work we do.</p>
+                        <p>There are many ways individuals and organizations can participate in the Web Consortium to
+                            advance web standardization.</p>
+                        <div class="l-box l-box--no-border l-box--no-padding">
+                            <a class="button button--alt" href="/get-involved/">Ways to get involved</a>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+        <div class="conner">
+            <div class="conner" style="cursor: pointer;">
+                <div>
+                    <div id="chatIcon" style="display: flex; align-items: center;" onclick="triggerChatIframe()">
+                        <div
+                            style="width: 60px; height: 60px; background-color: #FF8030; display: flex; justify-content: center; align-items: center; border-radius:60px; margin: 10;">
+                            <svg width="36" height="36" viewBox="0 0 36 36">
+                                <path fill="white"
+                                    d="M1 17.99C1 8.51488 8.42339 1.5 18 1.5C27.5766 1.5 35 8.51488 35 17.99C35 27.4651 27.5766 34.48 18 34.48C16.2799 34.48 14.6296 34.2528 13.079 33.8264C12.7776 33.7435 12.4571 33.767 12.171 33.8933L8.79679 35.3828C7.91415 35.7724 6.91779 35.1446 6.88821 34.1803L6.79564 31.156C6.78425 30.7836 6.61663 30.4352 6.33893 30.1868C3.03116 27.2287 1 22.9461 1 17.99ZM12.7854 14.8897L7.79161 22.8124C7.31238 23.5727 8.24695 24.4295 8.96291 23.8862L14.327 19.8152C14.6899 19.5398 15.1913 19.5384 15.5557 19.8116L19.5276 22.7905C20.7193 23.6845 22.4204 23.3706 23.2148 22.1103L28.2085 14.1875C28.6877 13.4272 27.7531 12.5704 27.0371 13.1137L21.673 17.1847C21.3102 17.4601 20.8088 17.4616 20.4444 17.1882L16.4726 14.2094C15.2807 13.3155 13.5797 13.6293 12.7854 14.8897Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function triggerChatIframe() {
+            var x = document.getElementById("chatIframe");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
